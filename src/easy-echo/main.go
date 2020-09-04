@@ -28,7 +28,7 @@ import (
 func main() {
 	validateResult:=validate("license.dat")
 	if !validateResult {
-		fmt.Println("license valid fail")
+		fmt.Println("license valid fail~~~~~~~~~~~")
 		return
 	}
 
