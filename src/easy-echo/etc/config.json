@@ -1,0 +1,21 @@
+{
+  "host": "127.0.0.1:18888",
+  "log_dir": "./log",
+  "log_file_type": "csv",
+  "db": {
+    "mongo": "122.152.224.93:6099",
+    "db_user": "admin",
+    "db_pwd": "admin123!",
+    "db_auth_name": "admin",
+    "db_bus_name": "easy_echo"
+  },
+  "cache": {
+    "master_redis_host": "122.152.224.93:8099",
+    "master_redis_auth": "Do12019.com",
+    "slave_redis_host": "122.152.224.93:8099",
+    "slave_redis_auth": "Do12019.com",
+    "redis_sentinel_hosts": "",
+    "redis_sentinel_master_name": "",
+    "redis_sentinel_auth": ""
+  }
+}
